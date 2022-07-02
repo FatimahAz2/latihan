@@ -13,10 +13,20 @@ void main() {
       var home = 'done';
       print(testPages + home);
     });
-    
-    test('Produk', () {
-      var produk = 'done';
-      print(testPages + produk);
+
+    test('SearchPage', () {
+      var search = 'done';
+      print(testPages + search);
     });
+
+    test('FavoritePage', () {
+      var fav = 'done';
+      print(testPages + fav);
+    });
+
+    test('ProfilePage', () {
+      var profile = 'done';
+      print(testPages + profile);
+
   });
 }
