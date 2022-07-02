@@ -5,4 +5,13 @@ void main() {
     var testModuleName = 'Test Module';
     print(testModuleName);
   });
+
+  group('Pages Test', () {
+    final testPages = 'Test Pages';
+
+    test('HomePage', () {
+      var home = 'done';
+      print(testPages + home);
+    });
+  });
 }
