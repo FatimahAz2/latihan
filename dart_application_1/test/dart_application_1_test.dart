@@ -27,6 +27,6 @@ void main() {
     test('ProfilePage', () {
       var profile = 'done';
       print(testPages + profile);
-
+    });
   });
 }
