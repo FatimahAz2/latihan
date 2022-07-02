@@ -13,5 +13,10 @@ void main() {
       var home = 'done';
       print(testPages + home);
     });
+    
+    test('Produk', () {
+      var produk = 'done';
+      print(testPages + produk);
+    });
   });
 }
