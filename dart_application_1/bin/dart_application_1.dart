@@ -1,3 +1,6 @@
 void main(List<String> args) {
-  print('Hello World!');
+  print('HomePage');
+  print('SearchPage');
+  print('favoritePage');
+  print('ProfilePage');
 }
